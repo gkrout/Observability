@@ -21,6 +21,13 @@ Telemetry data:
 2. Used to find where the problem might be
 3. Types: MELT(Metric, Event, Log, Trace)
 
+Event:
+1. An action happened at a given time
+2. A bag of chips purchased at a particular time
+3. Events validate that an expected action happened
+
+
+
 
 
 
