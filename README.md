@@ -26,6 +26,23 @@ Event:
 2. A bag of chips purchased at a particular time
 3. Events validate that an expected action happened
 
+Metric:
+1. Is an aggregated value representing events in a period of time
+2. 100 bags of chips purchased every minute
+3. Metrics are great for comparing the performance of the system with a time in the past
+
+Log:
+1. A very datailed representation of an event
+2. Eg; chips, price, purchase time, vending machine ID, location, payment method
+
+Trace:
+1. Shows the interactions of microservices to fulfil a request
+
+Methods of Metrics Collection:
+1. Push
+2. Scrape: Apps and MSs provide API end point for the time series DB to read the metrics. Eg; Prometheus scraping metrics
+
+
 
 
 
